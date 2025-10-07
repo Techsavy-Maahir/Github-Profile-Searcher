@@ -96,7 +96,6 @@ git clone https://github.com/Techsavy-Maahir/Github-Profile-Searcher.git
 
 ## 🪄 Example Screenshot
 
-*(Add your preview image here)*
 Example:
 ![App Screenshot](./screenshot.png)
 
