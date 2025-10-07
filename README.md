@@ -97,7 +97,7 @@ git clone https://github.com/Techsavy-Maahir/Github-Profile-Searcher.git
 ## 🪄 Example Screenshot
 
 Example:
-![App Screenshot](./screenshot.png)
+![App Screenshot](./Screenshot.png)
 
 ---
 
@@ -125,7 +125,6 @@ Github-Profile-Searcher/
 
 **Techsavy Maahir**
 📎 [GitHub Profile](https://github.com/Techsavy-Maahir)
-💼 [LinkedIn](https://linkedin.com/in/techsavy-maahir) *(optional)*
 
 ---
 
