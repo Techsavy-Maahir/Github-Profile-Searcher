@@ -28,9 +28,92 @@ body{
     display: flex;
     width: 50%;
     gap: 1rem;
+    max-width: 78rem;
 }
 
 .search input{
     padding: 0.5rem 1rem;
     width: 100%;
 }
+
+.search input:focus-visible{
+    outline: 2px solid purple;
+   
+}
+
+.primary-btn{
+    background-color: purple;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.primary-btn:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+  }
+
+  .primary-btn:active{
+    background-color: indigo;
+  }
+
+   /* for card */
+.profile-box{
+    padding: 4rem 2rem;
+    width: 90%;
+    max-width: 60rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+     transition: 0.5s ease-in;
+}
+
+.profile-box:hover{
+    transform: rotate(-2deg) scale(1.01);
+    transition: 0.5s ease-in;
+}
+
+.top-section{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left h1{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.avatar{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.avatar img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about{
+    margin: 2px;
+}
+
+.status{
+    display: grid;
+    margin: 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.status-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
